@@ -1,7 +1,7 @@
 // Default and rest parameters are new ES6 features that make it easier to overload our functions.
 
 // Rest parameters must always be the last parameter defined.
-function add (...numbers: number[]) {
+function add_rest (...numbers: number[]) {
   return numbers.reduce(function (sum, number) {
     return sum + number
   })
