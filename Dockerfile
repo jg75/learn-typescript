@@ -10,6 +10,10 @@ VOLUME /usr/src/app/node_modules
 ENTRYPOINT ["npm"]
 CMD ["run", "build"]
 
+FROM build as install
+
+ENTRYPOINT ["npm"]
+
 FROM build as run
 
 ENTRYPOINT ["node"]
