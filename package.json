@@ -3,7 +3,8 @@
   "private": true,
   "description": "Introduction to TypeScript",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
